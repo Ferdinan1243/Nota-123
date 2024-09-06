@@ -8,16 +8,16 @@ class Program
         double nota1, nota2, nota3, nota4;
 
         // Leer las notas del usuario
-        Console.WriteLine("Ingrese la primera nota:");
+        Console.WriteLine("Ingrese la nota 1:");
         nota1 = LeerNota();
 
-        Console.WriteLine("Ingrese la segunda nota:");
+        Console.WriteLine("Ingrese la nota 2:");
         nota2 = LeerNota();
 
-        Console.WriteLine("Ingrese la tercera nota:");
+        Console.WriteLine("Ingrese la nota 3:");
         nota3 = LeerNota();
 
-        Console.WriteLine("Ingrese la cuarta nota:");
+        Console.WriteLine("Ingrese la nota 4:");
         nota4 = LeerNota();
 
         // Calcular el promedio
